@@ -1,0 +1,132 @@
+  body {
+    background: #5F7176;
+  }
+  #Registro {
+    position: relative;
+    left: 65%;
+    top: 200px;
+    background-color: #cbbc17;
+    color: black;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  /*Modal*/
+  
+  #modal::backdrop {
+    background-color: rgba(0,0,0,.55);
+  }
+  #modal {
+    position: relative;
+    width: 25%;
+    height: 60%;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+  }
+  #modal input[type="text"]::placeholder {
+    text-align: center;
+  }
+  #modal input[type="text"] {
+    text-align: center;
+  }  
+  h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #9cbd9c;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  table th, table td {
+    padding: 10px;
+    text-align: center;
+  }
+ 
+  #Btn_Registro{
+    position: absolute;
+    right: 0;
+    background-color: #26A3CB;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+  #Btn_cerrar {
+    position: relative;
+    top: left;
+    background-color: #26A3CB;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  #Btn_cerrar_2 {
+    position: relative;
+    background-color: #26A3CB;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  #Btn_Actualizar {
+    position: absolute;
+    right: 0;
+    background-color: #26A3CB;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+  #Actualizar {
+    background-color: #9cbd9c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #Actualizar input[type="text"]::placeholder {
+    text-align: center;
+  }
+  
+  #Actualizar input[type="text"] {
+    text-align: center;
+  }
+  
+  
